@@ -288,6 +288,6 @@ tabs.forEach((t,i)=>{
     var a=e.target.closest&&e.target.closest("a[href]");
     if(!a||typeof ym!=="function")return;
     var h=a.href||"",g=h.indexOf("vk.ru")>-1?"vk_click":(h.indexOf("max.ru")>-1?"max_click":(h.indexOf("tel:")===0?"phone_click":""));
-    if(g)ym(113834187,"reachGoal",g);
+    if(g)ym(114037468,"reachGoal",g);
   });
 }catch(e){}})();
